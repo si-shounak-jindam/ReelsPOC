@@ -52,8 +52,7 @@ class ViewController: UIViewController {
            let videoURL6 = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"),
            let videoURL7 = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"),
            let videoURL8 = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"),
-           let videoURL12 = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"),
-           let videoURL13 = URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4 ") {
+           let videoURL12 = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"){
             videoURLs = [videoURL, videoURL1, videoURL3, videoURL4, videoURL5, videoURL6, videoURL7, videoURL8, videoURL12]
         } else {
             print("Error: Invalid video URL")
