@@ -1,0 +1,18 @@
+PODS:
+  - Brightcove-Player-Core (6.12.7):
+    - Brightcove-Player-Core/Framework (= 6.12.7)
+  - Brightcove-Player-Core/Framework (6.12.7)
+
+DEPENDENCIES:
+  - Brightcove-Player-Core (~> 6.12.7)
+
+SPEC REPOS:
+  https://github.com/brightcove/BrightcoveSpecs.git:
+    - Brightcove-Player-Core
+
+SPEC CHECKSUMS:
+  Brightcove-Player-Core: 41f892a464fee6bbd6675faa13f57ab1d0e576d6
+
+PODFILE CHECKSUM: 76cf5e8ebeb3c0a78b98d969d59cf0fd027c73df
+
+COCOAPODS: 1.13.0

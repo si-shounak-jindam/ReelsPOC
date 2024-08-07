@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+def shared_pods
+  source 'https://github.com/brightcove/BrightcoveSpecs.git'
+  source 'https://github.com/CocoaPods/Specs.git'
+  use_frameworks!
+
+  # Pods for ReelsDemoInUIkit
+  pod 'Brightcove-Player-Core', '~> 6.12.7'
+end
+
+
+target 'ReelsDemoInUIkit' do
+  use_frameworks!
+  shared_pods
+
+  target 'ReelsDemoInUIkitTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ReelsDemoInUIkitUITests' do
+    # Pods for testing
+  end
+
+end

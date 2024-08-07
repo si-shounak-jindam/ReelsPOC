@@ -1,0 +1,6 @@
+framework module Pods_ReelsDemoInUIkit {
+  umbrella header "Pods-ReelsDemoInUIkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
